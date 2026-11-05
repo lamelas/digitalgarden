@@ -1,13 +1,24 @@
 body {
-    /***
+  /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  //  background-color: white;
+  //  .content {
+  //   font-size: 14px;
+  //  }
+  //  h1 {
+  //   color: black;
+  //  }
+  .dg-banner {
+    margin: 0 0 1.5rem;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .dg-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }

@@ -1,0 +1,8 @@
+{% if banner_image %}
+  <div class="dg-banner">
+    <img
+      src="{% if 'http' in banner_image %}{{ banner_image }}{% else %}/img/user/{{ banner_image }}{% endif %}"
+      alt=""
+    >
+  </div>
+{% endif %}
